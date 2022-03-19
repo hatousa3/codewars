@@ -25,7 +25,7 @@ If you don't find two consecutive F(n) verifying F(n) * F(n+1) = prodyou will re
 ```
 F(n) being the smallest one such as F(n) * F(n+1) > prod.
 
-Some Examples of Return:
+### Some Examples of Return:
 (depend on the language)
 ```
 productFib(714) # should return (21, 34, true), 
