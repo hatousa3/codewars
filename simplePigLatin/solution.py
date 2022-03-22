@@ -1,5 +1,9 @@
 def pig_it(text):
-    return ' '.join(x[1:]+x[0]+'ay' if x != '!' or x != '?' else x for x in text.split(' '))
-
-
-pig_it()
+    lis = []
+    for x in text.split(' '):
+        if x == '!' or x == '?':
+            lis.append(x)
+        else:
+            lis.append(x[1:] + x[0] + 'ay')
+            
+    return ' '.join(lis)
